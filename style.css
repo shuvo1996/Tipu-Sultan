@@ -152,16 +152,48 @@ img {
         margin: 0 auto;
     }
 
+    img {
+        max-width: 90%;
+    }
+    .headline_area h2 {
+        font-size: 3.5vw;
+    }
+
+    .headline_area p {
+        font-size: 2.6vw;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+      #main_part h1 {
+        font-size: 4.1vw;
+        margin-bottom: 2rem;
+    }
+    #main_part ul li {
+        display: grid;
+        grid-template-columns: 5% 94%;
+        justify-content: center;
+        text-align: left;
+    
+    }
+    
+    #main_part ul li p {
+        margin-left: 1vw;
+        font-size: 2.1vw;
+    
+    }
+
     .button {
         flex-direction: column;
         align-items: center;
       }
       .button button{
           margin-bottom: 10px;
-          width: 39.5vw;
-          font-size: 1.5vw;
+          width: 75%;
+          height: 30px;
+          line-height: 30px;
+          font-size: 3vw;
       }
-
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -169,16 +201,39 @@ img {
     .container {
         max-width: 750px;
     }
+    img {
+        max-width: 70%;
+    }
+    .headline_area h2 {
+        font-size: 3vw;
+    }
+
+    .headline_area p {
+        font-size: 2vw;
+        margin-bottom: 3.5rem;
+        margin-top: 1rem;
+    }
+    #main_part h1 {
+        font-size: 3.1vw;
+        margin-bottom: 2rem;
+    }
+    #main_part ul li p {
+        margin-left: 1vw;
+        font-size: 1.5vw;
+    
+    }
 
     .button {
-      flex-direction: column;
-      align-items: center;
-    }
-    .button button{
-        margin-bottom: 10px;
-        width: 39.5vw;
-        font-size: 1.5vw;
-    }
+        flex-direction: column;
+        align-items: center;
+      }
+      .button button{
+          margin-bottom: 10px;
+          width: 40%;
+          height: 40px;
+          line-height: 30px;
+          font-size: 2vw;
+      }
 }
 
 /*Large devices (desktops, 992px and up) */
